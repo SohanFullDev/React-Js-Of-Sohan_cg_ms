@@ -24,12 +24,34 @@ function Header(){
   );
 
 }
+
+function CoreConcept(){
+  return (
+    <li>
+      <img src="..." alt="" />
+      <h3>Title</h3>
+      <p>Description</p>
+    </li>
+
+  );
+
+}
+
 function App() {
   return (
     <div>
        <Header/>
+     
       <main>
-        <h2>Time to get started!</h2>
+        <section id="core-concepts">
+        <h2>Core Concepts</h2>
+        <ul>
+          <CoreConcept/>
+          <CoreConcept/>
+          <CoreConcept/>
+        </ul>
+        </section>
+        
       </main>
     </div>
   );
