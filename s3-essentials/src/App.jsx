@@ -1,7 +1,7 @@
 //import reactImg from './assets/react1.png'
 //import componentsImg from './assets/react2.png'
 import { CORE_CONCEPTS } from './data.js';
-import Header from './components/Header.jsx';
+import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept.jsx';
 
 
@@ -9,9 +9,7 @@ import CoreConcept from './components/CoreConcept.jsx';
 function App() {
   return (
     <div>
-       <header>
-          <h1>Hello Sohan</h1>
-       </header>
+      
        <Header/>
      
       <main>
